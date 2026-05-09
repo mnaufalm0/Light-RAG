@@ -51,3 +51,12 @@ async def ask(data: dict):
     return {
         "answer": answer
     }
+
+
+
+
+
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run("main:app", host="0.0.0.0", port=8000)
