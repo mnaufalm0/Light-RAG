@@ -1,4 +1,4 @@
-const API_URL = "https://light-rag-production-8f5e.up.railway.app";
+const API_URL = "https://light-rag-1-bgfc.onrender.com";
 
 
 // =========================
