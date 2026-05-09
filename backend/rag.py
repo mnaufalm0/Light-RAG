@@ -1,5 +1,4 @@
 import os
-import chromadb
 from sklearn.feature_extraction.text import TfidfVectorizer
 from groq import Groq
 from dotenv import load_dotenv
@@ -7,8 +6,7 @@ import fitz
 from docx import Document
 load_dotenv()
 
-client = chromadb.PersistentClient(path="chroma_db")
-collection = client.get_or_create_collection(name="documents")
+DOCUMENTS = []
 
 vectorizer = TfidfVectorizer(stop_words="english")
 
