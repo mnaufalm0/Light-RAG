@@ -1,0 +1,19 @@
+# virtual env
+oenv/
+venv/
+
+# python cache
+__pycache__/
+*.pyc
+
+# env file (VERY IMPORTANT)
+.env
+
+# chroma db (optional but recommended)
+chroma_db/
+
+# uploads
+uploads/
+
+# OS files
+.DS_Store

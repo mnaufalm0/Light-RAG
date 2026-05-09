@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lightweight RAG Bot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Lightweight RAG Bot</h1>
+
+    <input type="file" id="pdfFile">
+    <button onclick="uploadPDF()">Upload PDF</button>
+
+    <textarea id="question" placeholder="Ask question from document..."></textarea>
+
+    <button onclick="askQuestion()">Ask</button>
+
+    <div id="response"></div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
