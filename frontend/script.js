@@ -1,4 +1,4 @@
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = "light-rag-production-8f5e.up.railway.app";
 
 
 async function uploadPDF() {
