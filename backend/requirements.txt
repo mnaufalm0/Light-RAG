@@ -1,10 +1,9 @@
 fastapi
 uvicorn
 python-multipart
-chromadb
 groq
-PyPDF2
-scikit-learn
 python-dotenv
 pymupdf
 python-docx
+scikit-learn
+numpy
